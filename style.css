@@ -14,3 +14,9 @@ button {
 button:active {
   transform: scale(0.95);
 }
+
+#message {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
