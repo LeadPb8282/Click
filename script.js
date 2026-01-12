@@ -11,7 +11,7 @@ const milestones = [
 
 clickBtn.addEventListener("click", () => {
   score++;
-  scoreDisplay.textContent = score + " cl";
+  scoreDisplay.textContent = score;
 
   const milestone = milestones.find(m => m.value === score);
   if (milestone) {
