@@ -16,5 +16,6 @@ clickBtn.addEventListener("click", () => {
   const milestone = milestones.find(m => m.value === score);
   if (milestone) {
     message.textContent = milestone.text;
+    message.style.display = "block"; // milestone 도달하면 보이게
   }
 });
