@@ -16,7 +16,7 @@ button:active {
 }
 
 #message {
-  display: inline-block;
+  display: none;
   white-space: normal;
   margin: 20px auto;
   padding: 15px 20px;
