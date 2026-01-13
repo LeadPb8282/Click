@@ -16,6 +16,7 @@ button:active {
 }
 
 #message {
+  display: none;
   margin: 20px auto;
   padding: 15px 20px;
   background-color: rgba(0, 0, 0, 0.7);
