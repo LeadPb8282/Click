@@ -18,11 +18,11 @@ button:active {
 #message {
   display: inline-block;
   white-space: nowrap;
-  overflow-x: auto;
   margin: 20px auto;
   padding: 15px 20px;
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   font-size: 18px;
   border-radius: 8px;
+  text-align: center;
 }
