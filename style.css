@@ -16,8 +16,7 @@ button:active {
 }
 
 #message {
-  display: none;
-  margin: 20px auto;
+  margin-top: 20px;
   padding: 15px 20px;
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
@@ -25,4 +24,5 @@ button:active {
   border-radius: 8px;
   max-width: 400px;
   text-align: center;
+  transition: opacity 0.5s ease;
 }
